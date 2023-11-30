@@ -1,0 +1,46 @@
+/* style.css */
+
+/* Reset some default styles */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color for the entire page */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif; /* Set a default font */
+}
+
+/* Style the header */
+header {
+    background-color: #333; /* Dark background color */
+    color: #fff; /* White text color */
+    padding: 1em; /* Add some padding around the header */
+    text-align: center;
+}
+
+/* Style the main content area */
+.main-content {
+    max-width: 800px; /* Set a maximum width for the content */
+    margin: 20px auto; /* Center the content */
+    padding: 20px; /* Add some padding around the content */
+}
+
+/* Style the footer */
+footer {
+    background-color: #333; /* Dark background color */
+    color: #fff; /* White text color */
+    padding: 1em; /* Add some padding around the footer */
+    text-align: center;
+}
+
+/* Add styles for links */
+a {
+    color: #007bff; /* Link color */
+    text-decoration: none; /* Remove underlines from links */
+}
+
+a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
